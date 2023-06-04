@@ -39,9 +39,8 @@ images.forEach(function (img) {
                         <div class="card-header text-center text-capitalize">
                           <h3 class = "cat">${categ}</h3>
                         </div>
-                        // <div class="card-body card-img">
-                        <h3 class = "cat">${categ}</h3>
-                        <h2 class = "title">Description</h2>
+                        <div class="card-body card-img">
+                        <h2 class = "title">${categ}</h2>
                             <img src="${img}" alt="Nature">
                         </div>
                 </div>
